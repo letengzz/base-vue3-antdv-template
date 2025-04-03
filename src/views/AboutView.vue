@@ -42,6 +42,13 @@ const a = ref('a')
   <div i-menu-a />
   <div :class="`i-menu-${a}`" h50 w50 />
   <div :class="cherry" h50 w50 />
+  <a-space wrap>
+    <a-button type="primary">Primary Button</a-button>
+    <a-button>Default Button</a-button>
+    <a-button type="dashed">Dashed Button</a-button>
+    <a-button type="text">Text Button</a-button>
+    <a-button type="link">Link Button</a-button>
+  </a-space>
 </template>
 
 <style>
